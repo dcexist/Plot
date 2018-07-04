@@ -314,7 +314,7 @@ series
 # In[36]:
 
 
-series.plot.pie(colors=['r', 'g', 'b', 'c'], autopct='%.2f', fontsize=20, figsize=(6, 6))
+series.plot.pie(colors=['r', 'g', 'b', 'c'], autopct='%1.1f%%', fontsize=20, figsize=(6, 6))
 plt.show()
 
 
